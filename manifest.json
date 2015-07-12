@@ -11,6 +11,9 @@
   "background":{
     "scripts":["extScript.js"]
   },
+  "web_accessible_resources": [
+    "music/*"
+  ],
   "permissions": [
    "tabs",
    "http://*/*",

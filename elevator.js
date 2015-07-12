@@ -200,12 +200,9 @@ var Elevator = function(options) {
 
 };
 
-//Controls for the browser extension -- Gregle
-
+//Getting the URL's of the audio files and telling the elevator to do it's thing -- Gregle
 var ele = new Elevator({
-    mainAudio: "music/elevator.mp3",
-    endAudio: "music/ding.mp3"
+    mainAudio: chrome.extension.getURL("music/elevator.mp3"),
+    endAudio: chrome.extension.getURL("music/ding.mp3")
 });
-var aud = new Audio("music/ding.mp3");
-aud.play();
-//ele.elevate();
+ele.elevate();

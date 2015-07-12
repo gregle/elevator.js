@@ -1,4 +1,14 @@
-# elevator.js
+### elevator.js Chrome Extension -- Gregle
+
+Now you can ride the elevator where ever you are. With the touch of a button you can ride to the top of the page in style every time. Though it has a hard time on web pages that designed around using the browser's scroll bar.
+
+Original elevator.js credit to [Tim Holman](http://tholman.com) ~ timothy.w.holman@gmail.com
+
+<div>Icon made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+
+
+
+# Original elevator.js
 Finally, a "back to top" button that behaves like a real elevator, by adding elevator music to quietly soothe the awkwardness that can ensue when being smoothly scrolled to the top of the screen.
 
 This is very serious stuff, [here's a demo](http://tholman.com/elevator.js)!
@@ -68,6 +78,3 @@ Elevator.js is covered by the MIT License.
 Audio in the Demo (sourced from [BenSound](http://www.bensound.com/)) is licenced under [Creative Commons](http://www.bensound.com/licensing).
 
 Copyright (C) 2015 ~ [Tim Holman](http://tholman.com) ~ timothy.w.holman@gmail.com
-
-
-<div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
