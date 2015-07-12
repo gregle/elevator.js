@@ -9,6 +9,11 @@
     "default_icon": "icon.png"
   },
   "background":{
-    "scripts":["background.js"]
-  }
+    "scripts":["extScript.js"]
+  },
+  "permissions": [
+   "tabs",
+   "http://*/*",
+   "https://*/*"
+ ]
 }

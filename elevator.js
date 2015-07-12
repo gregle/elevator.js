@@ -9,6 +9,8 @@
  * Elevator.js
  *********************************************/
 
+
+
 var Elevator = function(options) {
 
     'use strict';
@@ -38,7 +40,7 @@ var Elevator = function(options) {
         if ( t < 1 ) return c / 2 * t * t + b;
         t--;
         return -c / 2 * ( t * ( t -2 ) - 1 ) + b;
-    };
+    }
 
     function extendParameters(options, defaults){
         for( var option in defaults ){
@@ -70,7 +72,7 @@ var Elevator = function(options) {
         } else {
             animationFinished();
         }
-   };
+   }
 
 //            ELEVATE!
 //              /
@@ -105,7 +107,7 @@ var Elevator = function(options) {
         if( mainAudio ) {
             mainAudio.play();
         }
-    }
+    };
 
     function resetPositions() {
         startTime = null;
@@ -197,3 +199,13 @@ var Elevator = function(options) {
     init(options);
 
 };
+
+//Controls for the browser extension -- Gregle
+
+var ele = new Elevator({
+    mainAudio: "music/elevator.mp3",
+    endAudio: "music/ding.mp3"
+});
+var aud = new Audio("music/ding.mp3");
+aud.play();
+//ele.elevate();
