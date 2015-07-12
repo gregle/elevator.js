@@ -68,3 +68,6 @@ Elevator.js is covered by the MIT License.
 Audio in the Demo (sourced from [BenSound](http://www.bensound.com/)) is licenced under [Creative Commons](http://www.bensound.com/licensing).
 
 Copyright (C) 2015 ~ [Tim Holman](http://tholman.com) ~ timothy.w.holman@gmail.com
+
+
+<div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
